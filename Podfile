@@ -6,7 +6,7 @@ target 'PullToRefresh' do
   use_frameworks!
 
   # Pods for PullToRefresh
-  pod 'SnapKit'
+  
 end
 
 target 'PullToRefreshDemo' do
@@ -14,5 +14,5 @@ target 'PullToRefreshDemo' do
   use_frameworks!
 
   # Pods for PullToRefreshDemo
-
+  pod 'SnapKit'
 end

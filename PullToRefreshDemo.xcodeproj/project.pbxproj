@@ -17,8 +17,8 @@
 		4DDDB1DF1B0F7EE700DE9D93 /* PullToRefresh.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDDB1C71B0F7EE700DE9D93 /* PullToRefresh.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4DDDB1E91B0F7F1200DE9D93 /* PullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDDB1E71B0F7F1200DE9D93 /* PullToRefresh.swift */; };
 		4DDDB1EA1B0F7F1300DE9D93 /* UIScrollView+PullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDDB1E81B0F7F1200DE9D93 /* UIScrollView+PullToRefresh.swift */; };
-		BE7FD14B2394E8940068B5D8 /* RefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FD14A2394E8940068B5D8 /* RefreshView.swift */; };
-		BE7FD14D2394E89C0068B5D8 /* RefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE7FD14C2394E89C0068B5D8 /* RefreshView.xib */; };
+		BE7FD14B2394E8940068B5D8 /* CustomRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FD14A2394E8940068B5D8 /* CustomRefreshView.swift */; };
+		BE7FD14D2394E89C0068B5D8 /* CustomRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE7FD14C2394E89C0068B5D8 /* CustomRefreshView.xib */; };
 		C1AD244A3ABA2E109D71B3B8 /* Pods_PullToRefreshDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC5623CD6E3D97D8C7946FE /* Pods_PullToRefreshDemo.framework */; };
 		C5E5993E1D4793DF00180FB7 /* DefaultRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E5993D1D4793DF00180FB7 /* DefaultRefreshView.swift */; };
 		C5E599401D4793F400180FB7 /* DefaultViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E5993F1D4793F400180FB7 /* DefaultViewAnimator.swift */; };
@@ -68,8 +68,8 @@
 		6F224809CFF1EC1B7A94C77C /* Pods-PullToRefreshDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PullToRefreshDemo.debug.xcconfig"; path = "Target Support Files/Pods-PullToRefreshDemo/Pods-PullToRefreshDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		93503C9E9CC692EA3275DF91 /* Pods-PullToRefreshDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PullToRefreshDemo.release.xcconfig"; path = "Target Support Files/Pods-PullToRefreshDemo/Pods-PullToRefreshDemo.release.xcconfig"; sourceTree = "<group>"; };
 		AAC5623CD6E3D97D8C7946FE /* Pods_PullToRefreshDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PullToRefreshDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE7FD14A2394E8940068B5D8 /* RefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshView.swift; sourceTree = "<group>"; };
-		BE7FD14C2394E89C0068B5D8 /* RefreshView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RefreshView.xib; sourceTree = "<group>"; };
+		BE7FD14A2394E8940068B5D8 /* CustomRefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRefreshView.swift; sourceTree = "<group>"; };
+		BE7FD14C2394E89C0068B5D8 /* CustomRefreshView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomRefreshView.xib; sourceTree = "<group>"; };
 		C5E5993D1D4793DF00180FB7 /* DefaultRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultRefreshView.swift; sourceTree = "<group>"; };
 		C5E5993F1D4793F400180FB7 /* DefaultViewAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultViewAnimator.swift; sourceTree = "<group>"; };
 		C5E599411D47942100180FB7 /* RefreshViewAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshViewAnimator.swift; sourceTree = "<group>"; };
@@ -107,7 +107,6 @@
 				6F224809CFF1EC1B7A94C77C /* Pods-PullToRefreshDemo.debug.xcconfig */,
 				93503C9E9CC692EA3275DF91 /* Pods-PullToRefreshDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -136,8 +135,8 @@
 			children = (
 				4DDDB1A21B0F7ED700DE9D93 /* AppDelegate.swift */,
 				4DDDB1A41B0F7ED700DE9D93 /* ViewController.swift */,
-				BE7FD14A2394E8940068B5D8 /* RefreshView.swift */,
-				BE7FD14C2394E89C0068B5D8 /* RefreshView.xib */,
+				BE7FD14A2394E8940068B5D8 /* CustomRefreshView.swift */,
+				BE7FD14C2394E89C0068B5D8 /* CustomRefreshView.xib */,
 				4DDDB1A61B0F7ED700DE9D93 /* Main.storyboard */,
 				4DDDB1A91B0F7ED700DE9D93 /* Images.xcassets */,
 				4DDDB1AB1B0F7ED700DE9D93 /* LaunchScreen.xib */,
@@ -288,7 +287,7 @@
 			files = (
 				4DDDB1A81B0F7ED700DE9D93 /* Main.storyboard in Resources */,
 				4DDDB1AD1B0F7ED700DE9D93 /* LaunchScreen.xib in Resources */,
-				BE7FD14D2394E89C0068B5D8 /* RefreshView.xib in Resources */,
+				BE7FD14D2394E89C0068B5D8 /* CustomRefreshView.xib in Resources */,
 				4DDDB1AA1B0F7ED700DE9D93 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,7 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE7FD14B2394E8940068B5D8 /* RefreshView.swift in Sources */,
+				BE7FD14B2394E8940068B5D8 /* CustomRefreshView.swift in Sources */,
 				4DDDB1A51B0F7ED700DE9D93 /* ViewController.swift in Sources */,
 				4DDDB1A31B0F7ED700DE9D93 /* AppDelegate.swift in Sources */,
 			);

@@ -1,5 +1,5 @@
 //
-//  RefreshView.swift
+//  CustomRefreshView.swift
 //  PullToRefreshDemo
 //
 //  Created by Will on 02/12/2019.
@@ -10,7 +10,7 @@ import PullToRefresh
 import SnapKit
 import UIKit
 
-class RefreshView: UIView {
+class CustomRefreshView: UIView {
     // MARK: - properties
 
     @IBOutlet private var containerView: UIView!
@@ -29,7 +29,7 @@ class RefreshView: UIView {
     }
 
     private func setupViews() {
-        Bundle.main.loadNibNamed("RefreshView", owner: self, options: nil)
+        Bundle.main.loadNibNamed("CustomRefreshView", owner: self, options: nil)
         addSubview(containerView)
         containerView.frame = CGRect(x: 0, y: 0, width: 375, height: 40)
     }
@@ -54,9 +54,9 @@ class RefreshView: UIView {
 }
 
 class Animator: RefreshViewAnimator {
-    private let refreshView: RefreshView
+    private let refreshView: CustomRefreshView
 
-    init(refreshView: RefreshView) {
+    init(refreshView: CustomRefreshView) {
         self.refreshView = refreshView
     }
 
@@ -77,7 +77,7 @@ class Animator: RefreshViewAnimator {
 
 class AwesomePullToRefresh: PullToRefresh {
     convenience init() {
-        let refreshView = RefreshView()
+        let refreshView = CustomRefreshView()
         let animator = Animator(refreshView: refreshView)
 //        refreshView.translatesAutoresizingMaskIntoConstraints = false
 //        refreshView.autoresizingMask = [.flexibleWidth]
