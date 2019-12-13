@@ -15,6 +15,7 @@
 		28400157B63F40AA135BF16780AB4B96 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FED189CE3C9928FFAF66C86038ABFDB1 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		292A76F6EA78E80CFCC929CBB500BC22 /* Pods-PullToRefreshDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B95185B09BD677FFAB57DC2E4D50D5 /* Pods-PullToRefreshDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35CDFA197D8219EB8DEFC227259A5C03 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED05C0772840EE66B3EB754BEF846F7A /* ConstraintMakerRelatable.swift */; };
+		412E3CD5A171BAB3923C72E609341DDD /* Pods-PullToRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFB4835F51457E628AF4101EA48C4217 /* Pods-PullToRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4268E348E6D5E9037A640ADC8E065009 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A26D91B0E800F3CC711EB9D4B7D643D /* ConstraintMakerEditable.swift */; };
 		54D1686EFA926E23C4BED5EEE7A19C08 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A3ECCB7489854CAA077B5B187C912D /* ConstraintInsets.swift */; };
 		5544BDD6A14E06C7FB3A878BC3E96299 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9D6FEF48994711991A348A7B0B99A /* ConstraintView.swift */; };
@@ -24,8 +25,8 @@
 		6B43F2F53DD6C161CF414A9BF67550C5 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63DC83113A26BB1DB9ED37E0EE3F512 /* ConstraintDSL.swift */; };
 		72C2B5D60A24B4B663C8994276A962B6 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21B4EB2CAC44390D976C65ABE1CE2F5 /* ConstraintOffsetTarget.swift */; };
 		77A618FE4FF299682F776C974300EBA1 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB05D22C92E5A571A653D510E552AC0 /* ConstraintView+Extensions.swift */; };
+		791F01E680681284A68E1F92408D3A12 /* Pods-PullToRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 696F263408A8F5E269575346165D9ECF /* Pods-PullToRefresh-dummy.m */; };
 		7ED12926E82C9D1DE457504DA75B80A9 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3D1E72289667D4BA6D946E25320953 /* LayoutConstraintItem.swift */; };
-		8B71AF65C6823014807120CBCA6C704B /* Pods-PullToRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 696F263408A8F5E269575346165D9ECF /* Pods-PullToRefresh-dummy.m */; };
 		8B8BE709B46663F60DB6A661A3B2A28A /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F1619E6AE6BAD68A1F802AD244BFAB /* ConstraintMakerPriortizable.swift */; };
 		9432185152350A4A90F6DD19C33AC057 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C5937AEDD4F642E09E0A1980BCC652 /* Debugging.swift */; };
 		98AE4E2F24A858A47B5A1B405CEAD8FD /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C87F70E835D22459F492D40CB584A67 /* UILayoutSupport+Extensions.swift */; };
@@ -35,31 +36,23 @@
 		A3DEA82F229FDF7C9444CEFEE3D9AB84 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C12038B34951B9B002DAB0D5FE023DA /* ConstraintMultiplierTarget.swift */; };
 		A4070B8C9BD30965648B2876CD3C1C43 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD64C66CE4DDF29ECD54691C69DE81 /* ConstraintAttributes.swift */; };
 		A482F623A133B7E947C01456C779622A /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161FED143DE8DD1AC41D71D22AEA464B /* ConstraintPriority.swift */; };
-		A659EDABE4B4FB0F89A636895C025C41 /* Pods-PullToRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFB4835F51457E628AF4101EA48C4217 /* Pods-PullToRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB55398955CD86F7ABAF367A3EF5CFD8 /* Pods-PullToRefreshDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4525DD736F474FBDC90DDFEEF0D51E83 /* Pods-PullToRefreshDemo-dummy.m */; };
 		BF7843175A0FB0180B6F4C0249B8874A /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EFBC475A6AD866A5083DC5F61B3563 /* LayoutConstraint.swift */; };
 		C1C2B61E08DAD3B59BA5D82964D39C3C /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21B2FDCEA78DB15010A749F9203D21F /* ConstraintRelation.swift */; };
 		CA0FAE669FAB7067D09F7007AD838E19 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65BFCA0A21044C1C3E6F663BB5F9B48 /* ConstraintItem.swift */; };
 		CD967AE00FCAB9E9CB53D0E35537A363 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D74DEA3C964C2E3FEAC9C95034F3CBF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		DBB93D3827327B8FB4CFA164C03357E5 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144DAF3614C757BDAABBA78E4B4866FC /* ConstraintLayoutGuide+Extensions.swift */; };
 		DCCEFF1B52226DE5ABB2D0043442FE61 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C417784A7C0566CA3A4A90F972ECD6E6 /* Constraint.swift */; };
 		DEC3E541DB551729EC407FA6566CEE54 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0E4E3541BF32A5C4247EA2CC09B4BE /* ConstraintViewDSL.swift */; };
 		E85BBB972867783044ADCD772438150F /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA57917D5E295BADC0B25F3CDB9C4E8 /* ConstraintRelatableTarget.swift */; };
 		F41CA723E31884664B9C032D90EAEF1A /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A12656157BC29CB51F2534C8EDF360 /* ConstraintInsetTarget.swift */; };
 		F6C7F81AA5BBC4042A3A78D5EA8E62A4 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5902768DE34E1627B020F4B2FB7BBBE /* ConstraintLayoutSupportDSL.swift */; };
+		F7DF3ABDC54E5D6C103C598B0E97C22E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		FF0E3F8B3FB568ACBB1BC433D67ED093 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F902CDA99715ADA3EC010544308DA63A /* ConstraintMakerExtendable.swift */; };
 		FFE7A02118B5288BC94F7422D6CFEB3F /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23DE5B5F4B593DDCE0ADE8616B85C5A /* ConstraintLayoutGuide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4DCCDF7416E37EE42221BC3BE6AB5B5B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
-			remoteInfo = SnapKit;
-		};
 		5DC7D2FF2FAEDC806962EA9B6157260B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -135,11 +128,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		36EFA61C1B5B3C03766AB818CDA7857D /* Frameworks */ = {
+		15E580639F99E98EC3F10E234DB9B4C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D74DEA3C964C2E3FEAC9C95034F3CBF1 /* Foundation.framework in Frameworks */,
+				F7DF3ABDC54E5D6C103C598B0E97C22E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,19 +302,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0C3706C0F101A53A55F6B660C18AD471 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412E3CD5A171BAB3923C72E609341DDD /* Pods-PullToRefresh-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		36DDD3F658A2B775F8B39BBFA6561635 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				28400157B63F40AA135BF16780AB4B96 /* SnapKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4E2AFF325CAD8FBBB94A40EE672FBE9C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A659EDABE4B4FB0F89A636895C025C41 /* Pods-PullToRefresh-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,17 +349,16 @@
 		};
 		1A44D56F4D284E108B6AB006DE0A2FD1 /* Pods-PullToRefresh */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F4D3D689C208A0F1435CDB5F4E24FCA /* Build configuration list for PBXNativeTarget "Pods-PullToRefresh" */;
+			buildConfigurationList = B420589605150730187E991178479CBC /* Build configuration list for PBXNativeTarget "Pods-PullToRefresh" */;
 			buildPhases = (
-				4E2AFF325CAD8FBBB94A40EE672FBE9C /* Headers */,
-				E9FBA01DCA31D8E378079251A90C8CCE /* Sources */,
-				36EFA61C1B5B3C03766AB818CDA7857D /* Frameworks */,
-				089F4D0C8824A7354FE03087C5FF12D0 /* Resources */,
+				0C3706C0F101A53A55F6B660C18AD471 /* Headers */,
+				EC986743E486E76C9D157AE87E22070D /* Sources */,
+				15E580639F99E98EC3F10E234DB9B4C9 /* Frameworks */,
+				2EFA622341DA27D64E08D5A376429886 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				478C7EBB0EFA52EF8120189333CDDD96 /* PBXTargetDependency */,
 			);
 			name = "Pods-PullToRefresh";
 			productName = "Pods-PullToRefresh";
@@ -422,14 +414,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		089F4D0C8824A7354FE03087C5FF12D0 /* Resources */ = {
+		1FA6EE6BB1452EE8D40646CF50CA9922 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FA6EE6BB1452EE8D40646CF50CA9922 /* Resources */ = {
+		2EFA622341DA27D64E08D5A376429886 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -496,23 +488,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9FBA01DCA31D8E378079251A90C8CCE /* Sources */ = {
+		EC986743E486E76C9D157AE87E22070D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B71AF65C6823014807120CBCA6C704B /* Pods-PullToRefresh-dummy.m in Sources */,
+				791F01E680681284A68E1F92408D3A12 /* Pods-PullToRefresh-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		478C7EBB0EFA52EF8120189333CDDD96 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SnapKit;
-			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
-			targetProxy = 4DCCDF7416E37EE42221BC3BE6AB5B5B /* PBXContainerItemProxy */;
-		};
 		E96E3E503990C770D3B281C271075AFF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SnapKit;
@@ -645,9 +631,9 @@
 			};
 			name = Release;
 		};
-		6FA2C0F403E289B70830A6555C3C1707 /* Release */ = {
+		57315A051034FF4DE7EF6AF7512E1B76 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A212F77648B70268FBA26356554E40C /* Pods-PullToRefresh.release.xcconfig */;
+			baseConfigurationReference = 46EADBB65BB6E910C1C7EAB9EE2FF08B /* Pods-PullToRefresh.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -673,11 +659,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -777,9 +762,9 @@
 			};
 			name = Release;
 		};
-		8AAC460E748CF2B72BBE1DFF388A6336 /* Debug */ = {
+		CD94375B4D010F8A35723DEF5024D6A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EADBB65BB6E910C1C7EAB9EE2FF08B /* Pods-PullToRefresh.debug.xcconfig */;
+			baseConfigurationReference = 2A212F77648B70268FBA26356554E40C /* Pods-PullToRefresh.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -805,10 +790,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		DECF6C1B7AE5AE73977676FEC349485E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -873,11 +859,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F4D3D689C208A0F1435CDB5F4E24FCA /* Build configuration list for PBXNativeTarget "Pods-PullToRefresh" */ = {
+		B420589605150730187E991178479CBC /* Build configuration list for PBXNativeTarget "Pods-PullToRefresh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8AAC460E748CF2B72BBE1DFF388A6336 /* Debug */,
-				6FA2C0F403E289B70830A6555C3C1707 /* Release */,
+				57315A051034FF4DE7EF6AF7512E1B76 /* Debug */,
+				CD94375B4D010F8A35723DEF5024D6A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
