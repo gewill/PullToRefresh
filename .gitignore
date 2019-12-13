@@ -27,3 +27,4 @@ DerivedData
 build.output
 
 Carthage/Build
+Pods/
