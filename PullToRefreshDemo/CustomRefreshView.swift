@@ -31,7 +31,9 @@ class CustomRefreshView: UIView {
     private func setupViews() {
         Bundle.main.loadNibNamed("CustomRefreshView", owner: self, options: nil)
         addSubview(containerView)
-        containerView.frame = CGRect(x: 0, y: 0, width: 375, height: 40)
+        containerView.snp.makeConstraints {
+            $0.edges.equalToSuperview()
+        }
     }
 
     override func layoutSubviews() {
@@ -53,7 +55,7 @@ class CustomRefreshView: UIView {
     }
 }
 
-class Animator: RefreshViewAnimator {
+class CustomAnimator: RefreshViewAnimator {
     private let refreshView: CustomRefreshView
 
     init(refreshView: CustomRefreshView) {
@@ -75,13 +77,12 @@ class Animator: RefreshViewAnimator {
     }
 }
 
-class AwesomePullToRefresh: PullToRefresh {
-    convenience init() {
+class CustomPullToRefresh: PullToRefresh {
+    convenience init(height: CGFloat = 40, thePosition: Position) {
         let refreshView = CustomRefreshView()
-        let animator = Animator(refreshView: refreshView)
-//        refreshView.translatesAutoresizingMaskIntoConstraints = false
-//        refreshView.autoresizingMask = [.flexibleWidth]
-        refreshView.frame.size.height = 40
-        self.init(refreshView: refreshView, animator: animator, height: 40, position: .top)
+        let animator = CustomAnimator(refreshView: refreshView)
+        refreshView.autoresizingMask = [.flexibleWidth]
+        refreshView.frame.size.height = height
+        self.init(refreshView: refreshView, animator: animator, height: height, position: thePosition)
     }
 }

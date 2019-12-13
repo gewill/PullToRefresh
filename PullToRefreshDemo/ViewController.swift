@@ -32,7 +32,7 @@ class ViewController: UIViewController {
 
 private extension ViewController {
     func setupPullToRefresh() {
-        tableView.addPullToRefresh(AwesomePullToRefresh()) { [weak self] in
+        tableView.addPullToRefresh(CustomPullToRefresh(thePosition: .top)) { [weak self] in
             let delayTime = DispatchTime.now() + Double(Int64(2 * Double(NSEC_PER_SEC))) / Double(NSEC_PER_SEC)
             DispatchQueue.main.asyncAfter(deadline: delayTime) {
                 self?.dataSourceCount = PageSize
@@ -40,7 +40,7 @@ private extension ViewController {
             }
         }
 
-        tableView.addPullToRefresh(AwesomePullToRefresh(position: .bottom)) { [weak self] in
+        tableView.addPullToRefresh(CustomPullToRefresh(thePosition: .bottom)) { [weak self] in
             let delayTime = DispatchTime.now() + Double(Int64(2 * Double(NSEC_PER_SEC))) / Double(NSEC_PER_SEC)
             DispatchQueue.main.asyncAfter(deadline: delayTime) {
                 self?.dataSourceCount += PageSize
